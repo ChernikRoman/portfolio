@@ -1,38 +1,38 @@
 @keyframes openingMenu {
     from {
         height: 100px;
-        background: linear-gradient(135deg, var(--main-background-color) 100%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 100%, var(--menu-background-color) 100%);
     }
     10% {
-        background: linear-gradient(135deg, var(--main-background-color) 90%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 90%, var(--menu-background-color) 100%);
     }
     20% {
-        background: linear-gradient(135deg, var(--main-background-color) 80%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 80%, var(--menu-background-color) 100%);
     }
     30% {
-        background: linear-gradient(135deg, var(--main-background-color) 70%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 70%, var(--menu-background-color) 100%);
     }
     40% {
-        background: linear-gradient(135deg, var(--main-background-color) 60%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 60%, var(--menu-background-color) 100%);
     }
     50% {
-        background: linear-gradient(135deg, var(--main-background-color) 50%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 50%, var(--menu-background-color) 100%);
     }
     60% {
-        background: linear-gradient(135deg, var(--main-background-color) 40%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 40%, var(--menu-background-color) 100%);
     }
     70% {
-        background: linear-gradient(135deg, var(--main-background-color) 30%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 30%, var(--menu-background-color) 100%);
     }
     80% {
-        background: linear-gradient(135deg, var(--main-background-color) 20%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 20%, var(--menu-background-color) 100%);
     }
     90% {
-        background: linear-gradient(135deg, var(--main-background-color) 10%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 10%, var(--menu-background-color) 100%);
     }
     to {
         height: calc(100vh - 34px);
-        background: linear-gradient(135deg, var(--main-background-color) 0%, var(--menu-background-color) 100%);
+        background: linear-gradient(19deg, var(--main-background-color) 0%, var(--menu-background-color) 90%);
     }
 }
 
@@ -60,7 +60,8 @@
 }
 
 .menu {
-    position: sticky;
+    position: fixed;
+    width: calc(100vw - 34px);
     top: 17px;
     display: flex;
     flex-direction: column;
