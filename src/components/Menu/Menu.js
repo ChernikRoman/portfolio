@@ -16,6 +16,10 @@ function Menu () {
         setIsOpen(!isOpen);
     }
 
+    function navLinksClickHandler (evt) {
+        if (evt.target.nodeName === 'A') setIsOpen(false);
+    }
+
     useEffect(()=>{
         window.addEventListener('scroll', function() {
             setScrollY(window.scrollY / 3)
@@ -51,9 +55,9 @@ function Menu () {
                 </li>
             </ul>
             <nav className="menu__nav">
-                <ul className={`menu__nav-links ${ isOpen ? 'menu__nav-links_opened' : '' }`}>
+                <ul className={`menu__nav-links ${ isOpen ? 'menu__nav-links_opened' : '' }`} onClick={navLinksClickHandler}>
                     <li className="menu__nav-link">
-                        <NavLink to="/">Главная</NavLink>
+                        <NavLink to="/" >Главная</NavLink>
                         <span>Вернуться на домашнюю страницу.</span>
                     </li>
                     <li className="menu__nav-link">
