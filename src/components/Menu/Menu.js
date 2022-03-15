@@ -10,7 +10,7 @@ import messageMail from '../../images/menu/message-logo.png'
 
 function Menu () {
     const [scrollY, setScrollY] = useState(0);
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
 
     function openButtonClickHandler() {
         setIsOpen(!isOpen);

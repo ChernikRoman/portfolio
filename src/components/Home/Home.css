@@ -1,0 +1,98 @@
+section, article {
+    /* border: 1px solid blue; */
+}
+
+.home {
+    padding: 100px 50px;
+}
+
+.home__intro {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.home__intro-title {
+    display: inline;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    font-size: 4rem;
+    font-weight: normal;
+    white-space: nowrap;
+    background: linear-gradient( 109.6deg, rgb(135, 121, 212) 11.2%, rgba(45,116,213,.8) 91.2% );
+}
+
+.home__intro-description {
+    font-size: var(--regular-font-size);
+    margin: 7px 0;
+}
+
+.home__intro-decoration {
+    position: relative;
+    background: radial-gradient(circle, rgba(104,163,252,1) 30%, rgba(0,0,0,0) 30%);
+    background-size: 10px 10px;
+    margin: 0;
+    width: 80%;
+    height: 250px;
+    z-index: 1;
+    transform: translateX(-80px);
+}
+
+.home__intro-photo {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0, -50%);
+    border-radius: 17px;
+}
+
+.home__greeting {
+    width: 50%;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.home__greeting h2 {
+    display: inline;
+    font-size: 3rem;
+    background: linear-gradient( 109.6deg, rgb(135, 121, 212) 11.2%, rgba(45,116,213,.6) 91.2% );
+}
+
+.home__greeting p {
+    font-size: var(--regular-font-size);
+}
+
+.home__greeting hr {
+    width: 37%;
+    height: 3px;
+    margin: 15px auto 5px 0;
+    margin-right: auto;
+    background: #3f3f3f;
+}
+
+.home__links-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 50px;
+}
+
+.home__links-wrapper a {
+    color: #000;
+    vertical-align: middle;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s;
+    background: linear-gradient(90deg, rgb(82, 140, 221) 0%, rgb(135, 121, 212)  51%, rgb(82, 140, 221) 100%);
+    background-size: 300% auto;
+}
+
+.home__links-wrapper a:hover {
+    background-position: right center;
+}

@@ -61,6 +61,7 @@
 
 .menu {
     position: fixed;
+    z-index: 9;
     width: calc(100vw - 34px);
     top: 17px;
     display: flex;
