@@ -18,7 +18,7 @@
     font-size: 4rem;
     font-weight: normal;
     white-space: nowrap;
-    background: linear-gradient( 109.6deg, rgb(135, 121, 212) 11.2%, rgba(45,116,213,.8) 91.2% );
+    background: linear-gradient( 109.6deg, var(--gradient-color-one) 11.2%, var(--gradient-color-two) 91.2% );
 }
 
 .home__intro-description {
@@ -55,8 +55,8 @@
 
 .home__greeting h2 {
     display: inline;
-    font-size: 3rem;
-    background: linear-gradient( 109.6deg, rgb(135, 121, 212) 11.2%, rgba(45,116,213,.6) 91.2% );
+    font-size: var(--second-header-font-size);
+    background: linear-gradient( 109deg, var(--gradient-color-one) 11.2%, var(--gradient-color-two) 91.2% );
 }
 
 .home__greeting p {
@@ -87,7 +87,7 @@
     border: none;
     border-radius: 15px;
     transition: 0.5s;
-    background: linear-gradient(90deg, rgb(82, 140, 221) 0%, rgb(135, 121, 212)  51%, rgb(82, 140, 221) 100%);
+    background: linear-gradient(90deg, var(--gradient-color-two) 0%, var(--gradient-color-one)  51%, var(--gradient-color-two) 100%);
     background-size: 300% auto;
 }
 
