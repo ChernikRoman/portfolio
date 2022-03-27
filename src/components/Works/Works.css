@@ -55,7 +55,7 @@
     padding: 30px 17px 17px;
     border-radius: 17px;
     box-sizing: border-box;
-    background: linear-gradient(0deg, var(--gradient-color-one), var(--gradient-color-two));
+    background: linear-gradient(0deg, var(--gradient-color-one-alpha), var(--gradient-color-two-alpha));
     transform: perspective(700px) rotateY(180deg);
     transition: transform .5s linear;
     backface-visibility: hidden;
