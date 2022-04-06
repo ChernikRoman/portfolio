@@ -1,0 +1,44 @@
+.parallax-pointer {
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    perspective: 700px;
+}
+
+.parallax-pointer__layer-one {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 120%;
+}
+
+.parallax-pointer__layer-two {
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+    width: 110%;
+}
+
+.parallax-pointer__layer-logo {
+    position: absolute;
+    top: 25%;
+    width: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.parallax-pointer__description {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    max-width: 55%;
+    font-size: 2vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+}
+
+@media (max-width: 550px) {
+    .parallax-pointer__description {
+        max-width: none;
+        color: black;
+        font-size: 4vw;
+    }
+}

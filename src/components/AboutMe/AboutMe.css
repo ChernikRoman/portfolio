@@ -1,0 +1,14 @@
+.about-me {
+    text-align: center;
+}
+
+.about-me__title {
+    display: inline-block;
+    margin-top: 0;
+    font-size: var(--second-header-font-size);
+    background: linear-gradient(109deg, var(--gradient-color-one),var(--gradient-color-two));
+}
+
+.about-me__info-block {
+    background-color: rgb(102, 101, 101);
+}

@@ -51,6 +51,7 @@
     border-radius: 17px;
     font-size: var(--regular-font-size);
     text-align: center;
+    text-shadow: 3px 3px 5px rgb(201, 201, 201);
     background: linear-gradient(109deg, var(--gradient-color-one-alpha),var(--gradient-color-two-alpha));
 }
 

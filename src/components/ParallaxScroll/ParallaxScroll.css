@@ -1,0 +1,57 @@
+.parallax-scroll {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    perspective: 500px;
+}
+
+.parallax-scroll__header {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    margin: 0;
+    font-size: 5vw;
+    text-align: left;
+    background-color: rgba(39, 39, 38, 0.644);
+    z-index: 1;
+}
+
+.parallax-scroll__airport-background {
+    position: absolute;
+    top: -15%;
+    left: 0;
+    width: 100%;
+}
+
+.parallax-scroll__airport-airplane {
+    position: absolute;
+    top: 35%;
+    width: 17%;
+    z-index: 1;
+}
+
+.parallax-scroll__airport-front {
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+    width: 100%;
+}
+
+.parallax-scroll__description {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    max-width: 55%;
+    color: silver;
+    font-size: 2vw;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 550px) {
+    .parallax-scroll__description {
+        max-width: none;
+        color: black;
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,14 @@
+@media (max-width: 425px) {
+    .info-label {
+        display: none;
+    }
+}
+
+.info-label {
+    position: absolute;
+    top: 3%;
+    right: 0;
+    font-size: 11px;
+    background: rgba(39, 39, 38, 0.3);
+    z-index: 3;
+}
