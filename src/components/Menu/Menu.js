@@ -26,6 +26,10 @@ function Menu () {
         });
     }, [])
 
+    useEffect(()=>{
+        document.documentElement.style.overflow = isOpen ? 'hidden' : '';
+    }, [isOpen])
+
     return(
         <div className={`menu ${ isOpen ? 'menu_opened' : '' }`}>
             <div className="menu__button-wrapper">
