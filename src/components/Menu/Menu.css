@@ -142,7 +142,7 @@
     animation: openingNavLinks .7s .5s linear forwards;
 }
 
-.menu__nav-link a {
+.menu__link {
     display: inline-block;
     width: 364px;
     font-family: IntroCondensed, -apple-system, sans-serif;
@@ -151,12 +151,12 @@
     transition: transform .1s linear;
 }
 
-.menu__nav-link a:hover {
+.menu__link:hover {
     transform: scale(1.03);
     opacity: .5;
 }
 
-.menu__nav-link span {
+.menu__link-description {
     margin-left: 30px;
 }
 
@@ -174,4 +174,22 @@
 
 .menu__send-email:hover::before {
     content: 'Написать на почту';
+}
+
+@media (max-width: 750px) {
+    .menu {
+        padding: 10px;
+    }
+
+    .menu__nav-links {
+        max-width: 350px;
+    }
+
+    .menu__link {
+        font-size: 2.5rem;
+    }
+
+    .menu__link-description {
+        margin-left: 0;
+    }
 }

@@ -43,7 +43,7 @@ function Menu () {
             </div>
             <ul className={`menu__social-links ${ isOpen ? 'menu__social-links_opened' : '' }`}>
                 <li>
-                    <a href="https://github.com/roman017" target="_blank" rel="noreferrer">
+                    <a  href="https://github.com/roman017" target="_blank" rel="noreferrer">
                         <img src={githubLogo} alt="Github logo" />
                     </a>
                 </li>
@@ -61,20 +61,20 @@ function Menu () {
             <nav className="menu__nav">
                 <ul className={`menu__nav-links ${ isOpen ? 'menu__nav-links_opened' : '' }`} onClick={navLinksClickHandler}>
                     <li className="menu__nav-link">
-                        <NavLink to="/" >Главная</NavLink>
-                        <span>Вернуться на домашнюю страницу.</span>
+                        <NavLink to="/" className="menu__link">Главная</NavLink>
+                        <span className="menu__link-description">Вернуться на домашнюю страницу.</span>
                     </li>
                     <li className="menu__nav-link">
-                        <NavLink to="/works">Работы</NavLink>
-                        <span>Некоторые мои проекты.</span>
+                        <NavLink to="/works" className="menu__link">Работы</NavLink>
+                        <span className="menu__link-description">Некоторые мои проекты.</span>
                     </li>
                     <li className="menu__nav-link">
-                        <NavLink to="/about-me">Обо мне</NavLink>
-                        <span>Здесь я рассказал немного о себе.</span>
+                        <NavLink to="/about-me" className="menu__link">Обо мне</NavLink>
+                        <span className="menu__link-description">Здесь я рассказал немного о себе.</span>
                     </li>
                     <li className="menu__nav-link">
-                        <NavLink to="/techs">Технологии</NavLink>
-                        <span>Технологии с которыми работаю.</span>
+                        <NavLink to="/techs" className="menu__link">Технологии</NavLink>
+                        <span className="menu__link-description">Технологии с которыми работаю.</span>
                     </li>
                 </ul>
             </nav>
