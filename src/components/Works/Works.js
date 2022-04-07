@@ -20,7 +20,7 @@ export default function Works() {
                         <div className="works__links-wrapper">
                             <a href="https://roman017.github.io/how-to-learn" target="_blank" rel="noreferrer">Посетить страницу 🌐</a>
                             <br />
-                            <a href="https://github.com/Roman017/how-to-learn" target="_blank" rel="noreferrer">Посмотреть репозиторий на GitHub 🛠</a>
+                            <a href="https://github.com/Roman017/how-to-learn" target="_blank" rel="noreferrer">Посмотреть на GitHub 🛠</a>
                         </div>
                     </div>
                 </article>
@@ -35,7 +35,7 @@ export default function Works() {
                         <div className="works__links-wrapper">
                             <a href="https://roman017.github.io/russian-travel/" target="_blank" rel="noreferrer">Посетить страницу 🌐</a>
                             <br />
-                            <a href="https://github.com/Roman017/russian-travel" target="_blank" rel="noreferrer">Посмотреть репозиторий на GitHub 🛠</a>
+                            <a href="https://github.com/Roman017/russian-travel" target="_blank" rel="noreferrer">Посмотреть на GitHub 🛠</a>
                         </div>
                     </div>
                 </article>
@@ -55,7 +55,7 @@ export default function Works() {
                         <div className="works__links-wrapper">
                             <a href="https://roman017.github.io/react-mesto-api-full" target="_blank" rel="noreferrer">Посетить страницу 🌐</a>
                             <br />
-                            <a href="https://github.com/Roman017/react-mesto-api-full" target="_blank" rel="noreferrer">Посмотреть репозиторий на GitHub 🛠</a>
+                            <a href="https://github.com/Roman017/react-mesto-api-full" target="_blank" rel="noreferrer">Посмотреть на GitHub 🛠</a>
                         </div>
                     </div>
                 </article>
@@ -65,8 +65,7 @@ export default function Works() {
                         <h3 className="works__back-side-title">Movies explorer</h3>
                         <p className="works__back-side-description">
                             Дипломная работа Яндекс.Практикум. Присутствует возможность регистрации, авторизации.
-                            Поиск по названию фильма, возможность сохранения фильма в закладки. В демострационном режиме имитируется работа с сервером, это касается
-                            регистрации и авторизации пользователя. При поиске фильмов запросы обрабатываются на сервере.
+                            Поиск по названию фильма, сохранения фильма в закладки.
                             Для входа используйте:
                             <br />
                             Login: email@domen.com
@@ -76,7 +75,7 @@ export default function Works() {
                         <div className="works__links-wrapper">
                             <a href="https://roman017.github.io/movies-explorer-frontend" target="_blank" rel="noreferrer">Посетить страницу 🌐</a>
                             <br />
-                            <a href="https://github.com/Roman017/movies-explorer-frontend" target="_blank" rel="noreferrer">Посмотреть репозиторий на GitHub 🛠</a>
+                            <a href="https://github.com/Roman017/movies-explorer-frontend" target="_blank" rel="noreferrer">Посмотреть на GitHub 🛠</a>
                         </div>
                     </div>
                 </article>

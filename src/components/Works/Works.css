@@ -83,3 +83,27 @@
 .works__links-wrapper a:hover {
     opacity: .7;
 }
+
+@media (max-width: 750px) {
+    .works {
+        padding: 30px 0 0;
+    }
+
+    .works__collection-cards {
+        padding: 15px 0;
+    }
+
+    .works__card {
+        display: flex;
+        width: 100%;
+    }
+
+    .works__back-side {
+        padding: 5px;
+    }
+
+    .works__back-side-title {
+        font-size: 2rem;
+    }
+
+}
