@@ -11,24 +11,22 @@ export default function Home() {
                     <br/>
                     <span className="home__intro-description">Я <b>web-разработчик</b> из Москвы.</span>
                 </div>
-                <figure className="home__intro-decoration">
-                    <img className="home__intro-photo" src={mainPhoto} alt="Main"/>
-                </figure>
+                <img className="home__intro-photo" src={mainPhoto} alt="Main"/>
             </article>
             <article className="home__greeting">
-                <h2>Давайте знакомиться!</h2>
+                <h2 className="home__greeting-header">Давайте знакомиться!</h2>
                 <hr />
-                <p>Спасибо, что решили посетить мой сайт! Здесь вы найдете немного информации обо мне. А так же сможете ознакомиться с моими работами и
+                <p className="home__greeting-description">Спасибо, что решили посетить мой сайт! Здесь вы найдете немного информации обо мне. А так же сможете ознакомиться с моими работами и
                     посмотреть технологии, с которыми работаю.
                 </p>
                 <div className="home__links-wrapper">
-                    <Link to="/about-me">
+                    <Link to="/about-me" className="home__link">
                         Обо мне
                     </Link>
-                    <Link to="/works">
+                    <Link to="/works" className="home__link">
                         Работы
                     </Link>
-                    <Link to="/techs">
+                    <Link to="/techs" className="home__link">
                         Технологии
                     </Link>
                 </div>

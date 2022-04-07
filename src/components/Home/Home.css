@@ -10,6 +10,17 @@
     padding: 100px 0;
 }
 
+.home__intro::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    background: radial-gradient(circle, rgba(104,163,252,1) 30%, rgba(0,0,0,0) 30%);
+    background-size: 10px 10px;
+    width: 50vw;
+    height: 45%;
+}
+
 .home__intro-title {
     display: inline;
     position: relative;
@@ -26,22 +37,10 @@
     margin: 7px 0;
 }
 
-.home__intro-decoration {
-    position: relative;
-    background: radial-gradient(circle, rgba(104,163,252,1) 30%, rgba(0,0,0,0) 30%);
-    background-size: 10px 10px;
-    margin: 0;
-    width: 80%;
-    height: 250px;
-    z-index: 1;
-    transform: translateX(-80px);
-}
-
 .home__intro-photo {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    transform: translate(0, -50%);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
     border-radius: 17px;
 }
 
@@ -53,13 +52,13 @@
     padding-left: 0;
 }
 
-.home__greeting h2 {
+.home__greeting-header {
     display: inline;
     font-size: var(--second-header-font-size);
     background: linear-gradient( 109deg, var(--gradient-color-one) 11.2%, var(--gradient-color-two) 91.2% );
 }
 
-.home__greeting p {
+.home__greeting-description {
     font-size: var(--regular-font-size);
 }
 
@@ -79,7 +78,7 @@
     line-height: 50px;
 }
 
-.home__links-wrapper a {
+.home__link {
     color: #000;
     vertical-align: middle;
     width: 150px;
@@ -91,6 +90,38 @@
     background-size: 300% auto;
 }
 
-.home__links-wrapper a:hover {
+.home__link:hover {
     background-position: right center;
+}
+
+@media (max-width: 1000px) {
+    .home__intro-title {
+        font-size: 8vw;
+    }
+
+    .home__intro {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .home__intro::before {
+        top: 10%;
+        left: 0;
+        width: 100%;
+    }
+
+    .home__intro-decoration {
+        transform: none;
+    }
+}
+
+@media (max-width: 700px){
+    .home__greeting {
+        width: auto;
+    }
+
+    .home__links-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
 }
