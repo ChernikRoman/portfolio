@@ -1,7 +1,7 @@
 import './Notebook.css';
 import notebookPictureS from '../../images/about-me/notebook-small.png';
 import notebookPictureL from '../../images/about-me/notebook-large.png';
-import browserPicture from '../../images/about-me/browser.png';
+import browserPicture from '../../images/about-me/browser.jpg';
 import notebookContent from '../../data/notebookContent';
 import Contacts from '../Contacts/Contacts';
 import { useState } from 'react';
