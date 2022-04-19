@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bc02f1bf.css",
+    "main.js": "/portfolio/static/js/main.c9552467.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pointer-layer-two.png": "/portfolio/static/media/pointer-layer-two.60ddc084d23cd5e6f29a.png",
+    "static/media/airport-front.png": "/portfolio/static/media/airport-front.40ef1892c702db4a3e05.png",
+    "static/media/notebook-large.png": "/portfolio/static/media/notebook-large.4fcc35ddffe89d1e9eb5.png",
+    "static/media/notebook-small.png": "/portfolio/static/media/notebook-small.52d4a9aede87f87d09f5.png",
+    "static/media/airport-background.jpg": "/portfolio/static/media/airport-background.ebdef48f9d36aac56918.jpg",
+    "static/media/1.jpg": "/portfolio/static/media/1.f8f4e0d728f48f328787.jpg",
+    "static/media/pointer-logo.png": "/portfolio/static/media/pointer-logo.84b6798e0c8788ed9c19.png",
+    "static/media/2.jpg": "/portfolio/static/media/2.e9de6cf5601c79718aa6.jpg",
+    "static/media/airport-airplane.png": "/portfolio/static/media/airport-airplane.a45e3deb7e456ed283b8.png",
+    "static/media/pointer-layer-one.jpeg": "/portfolio/static/media/pointer-layer-one.94cedc262da3e79819b1.jpeg",
+    "static/media/photo.jpeg": "/portfolio/static/media/photo.dbc56d5bf1a565467dab.jpeg",
+    "static/media/4.jpg": "/portfolio/static/media/4.9e50412e55c7cfe00bde.jpg",
+    "static/media/3.jpg": "/portfolio/static/media/3.11048f38bde79e6231bb.jpg",
+    "static/media/browser.jpg": "/portfolio/static/media/browser.e7ce1e6ce9bc7a67be8e.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.bc02f1bf.css.map": "/portfolio/static/css/main.bc02f1bf.css.map",
+    "main.c9552467.js.map": "/portfolio/static/js/main.c9552467.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc02f1bf.css",
+    "static/js/main.c9552467.js"
+  ]
+}
