@@ -1,7 +1,8 @@
 import './Works.css';
-import howToLearnImage from '../../images/works/1.png';
-import russianTravelImage from '../../images/works/2.png';
-import mestoImage from '../../images/works/3.png'
+import howToLearnImage from '../../images/works/1.jpg';
+import russianTravelImage from '../../images/works/2.jpg';
+import mestoImage from '../../images/works/3.jpg'
+import movieExplorer from '../../images/works/4.jpg'
 
 export default function Works() {
     return (
@@ -45,7 +46,8 @@ export default function Works() {
                         <h3 className="works__back-side-title">Mesto</h3>
                         <p className="works__back-side-description">
                             Небольшое одностраничное приложение на React. На сайте присутствует возможности регистрации,
-                            редактирования профия, добавления фотографий в ленту. При просмотре сайта будет эмулироваться работа с сервером и базой данных.
+                            редактирования профия, добавления фотографий в ленту. Внимание! При первом посещении сайта, происходит старт
+                            виртуального сервера. Это займет какое-то время, пожалуйста, подождите.
                             Для входа используйте:
                             <br />
                             Login: email@domen.com
@@ -53,19 +55,20 @@ export default function Works() {
                             Password: Password
                         </p>
                         <div className="works__links-wrapper">
-                            <a href="https://roman017.github.io/react-mesto-api-full" target="_blank" rel="noreferrer">Посетить страницу 🌐</a>
+                            <a href="https://frontend-express-mesto.herokuapp.com/" target="_blank" rel="noreferrer">Посетить страницу 🌐</a>
                             <br />
                             <a href="https://github.com/Roman017/react-mesto-api-full" target="_blank" rel="noreferrer">Посмотреть на GitHub 🛠</a>
                         </div>
                     </div>
                 </article>
                 <article className="works__card">
-                    <img className="works__front-side" src={mestoImage} alt="How to rearn" />
+                    <img className="works__front-side" src={movieExplorer} alt="How to rearn" />
                     <div className="works__back-side">
                         <h3 className="works__back-side-title">Movies explorer</h3>
                         <p className="works__back-side-description">
                             Дипломная работа Яндекс.Практикум. Присутствует возможность регистрации, авторизации.
-                            Поиск по названию фильма, сохранения фильма в закладки.
+                            Поиск по названию фильма, сохранения фильма в закладки. Внимание! При первом посещении сайта, происходит старт
+                            виртуального сервера. Это займет какое-то время, пожалуйста, подождите.
                             Для входа используйте:
                             <br />
                             Login: email@domen.com
@@ -73,7 +76,7 @@ export default function Works() {
                             Password: Password
                         </p>
                         <div className="works__links-wrapper">
-                            <a href="https://roman017.github.io/movies-explorer-frontend" target="_blank" rel="noreferrer">Посетить страницу 🌐</a>
+                            <a href="https://frontend-movies-explorer.herokuapp.com/" target="_blank" rel="noreferrer">Посетить страницу 🌐</a>
                             <br />
                             <a href="https://github.com/Roman017/movies-explorer-frontend" target="_blank" rel="noreferrer">Посмотреть на GitHub 🛠</a>
                         </div>

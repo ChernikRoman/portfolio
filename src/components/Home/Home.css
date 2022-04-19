@@ -39,6 +39,7 @@
 
 .home__intro-photo {
     position: relative;
+    width: 30%;
     z-index: 1;
     margin: 0 auto;
     border-radius: 17px;
@@ -100,6 +101,10 @@
         font-size: 8vw;
     }
 
+    .home__intro-photo {
+        width: 50%;
+    }
+
     .home__intro {
         flex-direction: column-reverse;
         padding: 0;
@@ -128,5 +133,11 @@
     .home__links-wrapper {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .home__intro-photo {
+        width: 80%;
     }
 }

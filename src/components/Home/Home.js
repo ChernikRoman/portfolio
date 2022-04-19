@@ -1,5 +1,5 @@
 import './Home.css';
-import mainPhoto from '../../images/home/shot.png';
+import mainPhoto from '../../images/home/photo.jpeg'
 import { Link } from 'react-router-dom';
 
 export default function Home() {
